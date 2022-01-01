@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
       <h1>Welcome to Zetaverse</h1>
       <button onClick={logout}>Logout</button>
-      {isLoggingOut && <h1 className='text-yellow-500 pb-20  font-bold  animate-pulse  '>Logging Out . . . . </h1>}
+
     </div>
   )
 }
